@@ -1,0 +1,54 @@
+{
+ "fold": 0,
+ "train": [
+  "A_a035",
+  "A_a065"
+ ],
+ "test": [
+  "A_a020",
+  "A_a025"
+ ],
+ "fit_s": 2264,
+ "predict_s": {
+  "A_a020": 10.6,
+  "A_a025": 10.6
+ },
+ "history": [
+  {
+   "iter": 100,
+   "loss": 0.7541186809539795,
+   "loss_classifier": 0.1343,
+   "loss_box_reg": 0.2363,
+   "loss_mask": 0.2723,
+   "loss_objectness": 0.0674,
+   "loss_rpn_box_reg": 0.0437
+  },
+  {
+   "iter": 200,
+   "loss": 0.8884596228599548,
+   "loss_classifier": 0.223,
+   "loss_box_reg": 0.2527,
+   "loss_mask": 0.3392,
+   "loss_objectness": 0.0378,
+   "loss_rpn_box_reg": 0.0357
+  },
+  {
+   "iter": 300,
+   "loss": 0.749872088432312,
+   "loss_classifier": 0.1515,
+   "loss_box_reg": 0.2633,
+   "loss_mask": 0.2895,
+   "loss_objectness": 0.0262,
+   "loss_rpn_box_reg": 0.0194
+  },
+  {
+   "iter": 400,
+   "loss": 0.7324440479278564,
+   "loss_classifier": 0.1615,
+   "loss_box_reg": 0.2582,
+   "loss_mask": 0.2261,
+   "loss_objectness": 0.0564,
+   "loss_rpn_box_reg": 0.0302
+  }
+ ]
+}

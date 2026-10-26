@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dropseg"
+version = "0.1.0"
+description = "Segmentation of condensation droplets and water bridges on PCB comb structures in climate chamber videos"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Teja Chirravuri", email = "tejagana@gmail.com" }]
+dependencies = [
+    "numpy>=1.21",
+    "scipy>=1.7",
+    "opencv-python-headless>=4.5,<5",
+    "scikit-learn>=1.0",
+    "torch>=2.0",
+    "torchvision>=0.15",
+]
+
+[project.optional-dependencies]
+tune = ["optuna>=3"]
+plot = ["matplotlib>=3.5"]
+dev = ["pytest>=7", "matplotlib>=3.5"]
+
+[project.scripts]
+dropseg = "dropseg.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+filterwarnings = ["ignore::UserWarning", "ignore::DeprecationWarning"]

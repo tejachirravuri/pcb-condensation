@@ -1,0 +1,10 @@
+{
+ "apeer": "labels/apeer (images/ and masks/ inside)",
+ "labelme": [
+  "labels/labelme_a20_to_a43",
+  "labels/labelme_a65"
+ ],
+ "apeer_polygons": "labels/apeer_polygons/a65.json",
+ "reference": "reference_measurement (images/ and masks/ inside)",
+ "recordings": "recordings (a/ to j/ inside)"
+}

@@ -1,0 +1,51 @@
+{
+ "method": "forest",
+ "experiment": "session_A",
+ "fold": 2,
+ "train": [
+  "A_a020",
+  "A_a025",
+  "A_a030",
+  "A_a035",
+  "A_a045",
+  "A_a075",
+  "A_a080",
+  "A_a085",
+  "A_a090"
+ ],
+ "test": [
+  "A_a055",
+  "A_a060",
+  "A_a065"
+ ],
+ "fit_s": 37.3,
+ "frames": {
+  "A_a055": {
+   "dice": 0.7659036373604273,
+   "iou": 0.6206189893650269,
+   "precision": 0.7684164556822076,
+   "recall": 0.7634071999340967,
+   "pixel_accuracy": 0.7233951822916667,
+   "water_fraction_true": 0.592724609375,
+   "water_fraction_pred": 0.5888606770833333
+  },
+  "A_a060": {
+   "dice": 0.8234428039752976,
+   "iou": 0.6998748609566184,
+   "precision": 0.8482339868661495,
+   "recall": 0.8000596051161059,
+   "pixel_accuracy": 0.77515625,
+   "water_fraction_true": 0.6553548177083334,
+   "water_fraction_pred": 0.618134765625
+  },
+  "A_a065": {
+   "dice": 0.8033770834621288,
+   "iou": 0.6713702974922954,
+   "precision": 0.8180454667374633,
+   "recall": 0.7892254718675075,
+   "pixel_accuracy": 0.7618782552083333,
+   "water_fraction_true": 0.61638671875,
+   "water_fraction_pred": 0.5946712239583334
+  }
+ }
+}

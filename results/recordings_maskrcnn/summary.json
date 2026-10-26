@@ -1,0 +1,45 @@
+{
+ "model": "maskrcnn_final.pt",
+ "recordings": [
+  {
+   "recording": "a",
+   "frames": 140,
+   "minutes": 69.5,
+   "starts_wet": true,
+   "onset_min": 0.0,
+   "peak_count": 200,
+   "peak_count_min": 4.5,
+   "peak_coverage": 0.7214904466110016,
+   "peak_coverage_min": 25.5,
+   "dry_again_min": 52.5,
+   "total_merges": 183,
+   "total_new": 1000,
+   "merge_phase_min": 21.0,
+   "count_at_peak_coverage": 56,
+   "count_ratio": 0.28,
+   "p90_at_peak_count": 33.316815223864324,
+   "p90_at_peak_coverage": 206.1400005357918,
+   "p90_ratio": 6.187266074223592,
+   "merges_in_phase": 158,
+   "new_in_phase": 576,
+   "tracks": 1716,
+   "long_tracks": 355,
+   "median_growth_px_per_min": 4.501999940170204,
+   "p90_growth_px_per_min": 9.180198262641959,
+   "ended_by_merge": 388,
+   "ended_by_vanish": 1313,
+   "most_absorbed": 20,
+   "electrodes_found": true,
+   "dry_reference": "a008",
+   "finger_width_px": 28.0,
+   "seconds_per_frame": 12.767,
+   "example_track": {
+    "start_min": 9.0,
+    "frames": 25,
+    "diameter_start_px": 37.8,
+    "diameter_end_px": 190.0,
+    "absorbed": 3
+   }
+  }
+ ]
+}

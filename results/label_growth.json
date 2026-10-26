@@ -1,0 +1,57 @@
+[
+ {
+  "frame": "A_a020",
+  "minute": 9.5,
+  "droplets": 177,
+  "coverage": 0.2087109375,
+  "median_diameter_px": 34.70568554746418,
+  "p10_diameter_px": 18.21525864003914,
+  "p90_diameter_px": 65.60644118891688,
+  "max_diameter_px": 113.45121664278335,
+  "label_source": "labelme polygons"
+ },
+ {
+  "frame": "A_a025",
+  "minute": 12.0,
+  "droplets": 162,
+  "coverage": 0.38531005859375,
+  "median_diameter_px": 41.10456225172519,
+  "p10_diameter_px": 22.662410936791332,
+  "p90_diameter_px": 96.99992562974215,
+  "max_diameter_px": 153.21876753788007,
+  "label_source": "labelme polygons"
+ },
+ {
+  "frame": "A_a030",
+  "minute": 14.5,
+  "droplets": 101,
+  "coverage": 0.42292724609375,
+  "median_diameter_px": 47.73990767770651,
+  "p10_diameter_px": 22.539356209735228,
+  "p90_diameter_px": 130.5510802169974,
+  "max_diameter_px": 178.55864985968395,
+  "label_source": "labelme polygons"
+ },
+ {
+  "frame": "A_a035",
+  "minute": 17.0,
+  "droplets": 85,
+  "coverage": 0.5138907877604166,
+  "median_diameter_px": 48.19117066016281,
+  "p10_diameter_px": 27.913667436512053,
+  "p90_diameter_px": 172.61950344412043,
+  "max_diameter_px": 269.91150451704823,
+  "label_source": "labelme polygons"
+ },
+ {
+  "frame": "A_a065",
+  "minute": 32.0,
+  "droplets": 57,
+  "coverage": 0.61718505859375,
+  "median_diameter_px": 40.715573031030544,
+  "p10_diameter_px": 17.008194448587158,
+  "p90_diameter_px": 264.470401732625,
+  "max_diameter_px": 435.15222432219986,
+  "label_source": "apeer mask"
+ }
+]
